@@ -3,7 +3,9 @@
 A simple load bar emulation ....
 
 **Simple load**
-Receives two parameters: 
+
+Receives two parameters
+
 * Root element
 * duration time in secs 
 ```javascript
@@ -14,6 +16,7 @@ Receives two parameters:
 **Delay load**
 
 Receives 4 parameters
+
 * Root element
 * interval time
 * percentaje to set delay
@@ -22,7 +25,6 @@ Receives 4 parameters
 ```javascript 
    el = document.getElementById('loader');
    loader.delayLoader(el,5,40,2)
-
 
 ```
 
