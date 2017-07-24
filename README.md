@@ -1,21 +1,22 @@
-# ecmaloader
+# ecmaloader by German Martinez Solis
 
 A simple load bar emulation ....
 
 **Simple load**
-Receive two parameters
-* One  is the root element and other is the load times
-```javascrip
+Receives two parameters: 
+* Root element
+* duration time in secs 
+```javascript
    el = document.getElementById('loader');
    loader.showLoader(el,10)
 ```
 
 **Delay load**
 
-Receivies 4 parameters
+Receives 4 parameters
 * Root element
 * interval time
-* percentaje at simulates delay
+* percentaje to set delay
 * waiting secconds until 100%
 
 ```javascript 
